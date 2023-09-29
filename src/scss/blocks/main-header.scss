@@ -1,0 +1,17 @@
+.main-header_logo {
+  position: absolute;
+  @include centering-width-pseudo-element();
+  top: 0;
+}
+
+.main-header__button {
+  width: 22.9px;
+  height: 22px;
+  background: url("./../../public/img/icon-menu.svg.svg");
+  display: block;
+  margin-left: auto;
+}
+
+.main-header {
+  padding: 17px 20px;
+}

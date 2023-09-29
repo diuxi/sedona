@@ -1,0 +1,46 @@
+.main-footer__title {
+  color: #000;
+  text-align: center;
+  font-family: PT Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 123.81% */
+  text-transform: uppercase;
+}
+
+.social__link {
+  width: 48px;
+  height: 48px;
+  background-color: #81b3d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  gap: 6px;
+}
+
+.main-footer__text {
+  color: #000;
+  text-align: center;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  text-transform: uppercase;
+}
+
+.main-footer__author {
+  display: flex;
+  gap: 7px;
+  margin: 21px auto 21.11px;
+  align-items: center;
+  width: fit-content;
+}
+
