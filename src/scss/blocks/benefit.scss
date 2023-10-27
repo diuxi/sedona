@@ -26,9 +26,10 @@
 }
 
 .benefit {
+  position: relative;
   &:first-of-type {
     &::before {
-      @include default-pseudo-element(100vw, 37px);
+      @include default-pseudo-element(100%, 37px);
       background: url(./../../public/img/copy.svg) no-repeat;
       background-size: cover;
     }
@@ -50,6 +51,6 @@
   background: #eeeeee;
 }
 
-.benefit__imge{
+.benefit__imge {
   width: 100%;
 }

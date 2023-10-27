@@ -15,3 +15,44 @@
 .main-header {
   padding: 17px 20px;
 }
+
+.main-header__nav {
+  position: fixed;
+  left: 0;
+  top: -50vh;
+  width: 100%;
+  &.open {
+    top: 0;
+  };
+}
+.main-header__link {
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: PT Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 144.444% */
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-header__item {
+  background-color: #81b3d2;
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.2) inset;
+  justify-content: center;
+  padding: 15px 0px;
+}
+
+.maim-header__close-button {
+  width: 22.2px;
+  height: 22.2px;
+  background: url("./../../public/img/icon-cross.svg");
+  display: block;
+  position: absolute;
+  top: 17px;
+  right: 15.8px;
+}
